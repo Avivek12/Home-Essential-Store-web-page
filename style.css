@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.navbar {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: radial-gradient(deepskyblue, lightyellow);
+
+    width: 100vw;
+
+}
+
+.navbar-space-between {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width:600px) {
+    .navbar-space-between {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+
+    }
+}
+
+.nav-item {
+    color: black;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+@media (min-width:600px) {
+    .nav-item {
+        color: black;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 22px;
+    }
+}
+
+
+.nav-item:hover {
+    background-image: radial-gradient(orange, yellow);
+    border-radius: 6px;
+    color: blue;
+    padding: 10px;
+
+}
+
+a:visited {
+    text-decoration: underline;
+    color: brown;
+}
+
+.bg-container {
+    background-image: url("https://res.cloudinary.com/dloojhqqk/image/upload/v1734162448/Sherrill-Furniture_RS_WK_02_m81tls.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    margin-bottom: 30px;
+
+}
+
+.product-container {
+    background-image: radial-gradient(black, white);
+    margin: 40px;
+    height: 30vh;
+    padding: 10px;
+    text-align: center;
+    color: gold;
+    transition: width 4s;
+    box-shadow: 10px 10px 10px 10px lightblue;
+
+
+}
+
+.product-container:hover {
+    width: 400px;
+}
+
+@media (min-width:600px) {
+    .product-container {
+        background-image: radial-gradient(black, white);
+        margin: 100px;
+        height: 40vh;
+        width: 50vw;
+
+
+    }
+}
+
+.furniture-title {
+    font-weight: 400;
+    font-family: "Caveat";
+    font-size: 36px;
+    color: Blue;
+}
+
+.furniture-description {
+    font-weight: 100;
+    font-family: "Roboto";
+    font-size: 14px;
+
+
+}
+
+@media (max-width:600px) {
+    .bg-container {
+        background-image: linear-gradient(to bottom, white, black);
+
+    }
+}
+
+.header-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.title-heading {
+    color: black;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+@media (max-width:600px) {
+    .title-heading {
+        color: white;
+        font-size: 30px;
+        font-weight: bolder;
+    }
+}
+
+@media (max-width:600px) {
+    .title-description {
+        color: orange;
+        font-size: 20px;
+        font-weight: 100;
+    }
+}
+
+.button {
+    background-image: linear-gradient(yellow, gold);
+    border-radius: 9px;
+    font-size: 20px;
+    padding: 12px;
+    color: grey;
+    border-width: 1px;
+    border-color: pink;
+    margin-right: 40px;
+    margin-top: 40px;
+    width: 190px;
+}
+
+.button:hover {
+    transform: Scale(1.1);
+
+}
+
+.image-size {
+    height: 120px;
+    width: 120px;
+    border-radius: 10px;
+}
+
+@media (min-width:600px) {
+    .image-size {
+        height: 210px;
+        width: 210px;
+        border-radius: 10px;
+    }
+}
+
+.image-card-container:hover {
+    transform: scale(0.9);
+    border-radius: 10px;
+    background-image: linear-gradient(to top, white, #AB18DC);
+
+}
+
+.image-card-container {
+
+    background-image: linear-gradient(to bottom, pink, lightyellow);
+
+
+}
+
+.product-section-heading {
+    color: Blue;
+    font-size: 20px;
+    font-weight: bolder;
+    background-image: radial-gradient(deepskyblue, lightyellow);
+    padding: 10px;
+}
+
+@media (min-width:600px) {
+    .product-section-heading {
+        color: Blue;
+        font-size: 28px;
+        text-shadow: 4px 4px gold;
+        font-weight: bolder;
+        background-image: radial-gradient(deepskyblue, lightyellow);
+        padding: 10px;
+    }
+}
+
+.product-main-container {
+    background-image: linear-gradient(to bottom, #F0FFFF, #F0F8FF);
+
+}
+
+.footer-container {
+    background-image: linear-gradient(to bottom, #F0FFFF, #F0F8FF);
+    height: 40vh;
+}
+
+.instagram {
+    color: red;
+    font-size: 24px;
+    margin: 20px;
+
+}
+
+.instagram:hover {
+    color: Red;
+    transform: scale(1.6);
+}
+
+.linkedin {
+    background-color: deepskyblue;
+    color: white;
+    font-size: 24px;
+    margin: 20px;
+}
+
+.linkedin:hover {
+    background-color: white;
+    color: deepskyblue;
+    transform: scale(1.6);
+}
+
+.facebook {
+    background-color: deepskyblue;
+    color: white;
+    font-size: 24px;
+    margin: 20px;
+    border-radius: 5px;
+
+}
+
+.facebook:hover {
+    background-color: blue;
+    color: white;
+    transform: scale(1.6);
+}
+
+.whatsapp {
+    color: green;
+    font-size: 24px;
+    margin: 20px;
+
+}
+
+.whatsapp:hover {
+    color: green;
+    transform: scale(1.6);
+}
+
+.github {
+    color: black;
+    font-size: 24px;
+    margin: 20px;
+}
+
+.github:hover {
+    color: black;
+    transform: scale(1.6);
+}
+
+.icons-alignment {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.contac-us-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width:600px) {
+    .contac-us-info {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
