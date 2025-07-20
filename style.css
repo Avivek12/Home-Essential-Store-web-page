@@ -147,11 +147,11 @@ a:visited {
 }
 
 .button {
-    background-image: linear-gradient(yellow, gold);
+    background-image: linear-gradient(blue,white);
     border-radius: 9px;
     font-size: 20px;
     padding: 12px;
-    color: grey;
+    color: black;
     border-width: 1px;
     border-color: pink;
     margin-right: 40px;
